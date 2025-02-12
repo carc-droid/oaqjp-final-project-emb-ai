@@ -23,7 +23,7 @@ def sent_detector():
 
 
     if not text_to_analyze:
-        return "No text provided. Please enter a valid sentence.", 400
+        return "Invalid Text! Please try again.", 400
 
     # Return the formatted string
     return formatted_emotions, 200
